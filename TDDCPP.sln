@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TDDCPP", "TDDCPP\TDDCPP.vcxproj", "{4715EC18-1816-4930-9A7F-224D4B3AAC85}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TDDCPPTest", "TDDCPPTest\TDDCPPTest.vcxproj", "{C58EF24A-846E-439D-B5E1-CADF3AB565A8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7E174DC5-71DE-4A9B-B103-6443E225E7F3} = {7E174DC5-71DE-4A9B-B103-6443E225E7F3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TDDLib", "TDDLib\TDDLib.vcxproj", "{7E174DC5-71DE-4A9B-B103-6443E225E7F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4715EC18-1816-4930-9A7F-224D4B3AAC85}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4715EC18-1816-4930-9A7F-224D4B3AAC85}.Debug|Win32.Build.0 = Debug|Win32
+		{4715EC18-1816-4930-9A7F-224D4B3AAC85}.Release|Win32.ActiveCfg = Release|Win32
+		{4715EC18-1816-4930-9A7F-224D4B3AAC85}.Release|Win32.Build.0 = Release|Win32
+		{C58EF24A-846E-439D-B5E1-CADF3AB565A8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C58EF24A-846E-439D-B5E1-CADF3AB565A8}.Debug|Win32.Build.0 = Debug|Win32
+		{C58EF24A-846E-439D-B5E1-CADF3AB565A8}.Release|Win32.ActiveCfg = Release|Win32
+		{C58EF24A-846E-439D-B5E1-CADF3AB565A8}.Release|Win32.Build.0 = Release|Win32
+		{7E174DC5-71DE-4A9B-B103-6443E225E7F3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7E174DC5-71DE-4A9B-B103-6443E225E7F3}.Debug|Win32.Build.0 = Debug|Win32
+		{7E174DC5-71DE-4A9B-B103-6443E225E7F3}.Release|Win32.ActiveCfg = Release|Win32
+		{7E174DC5-71DE-4A9B-B103-6443E225E7F3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
